@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 40, 40);
+}
+
+#root {
+    color: white;
+    text-align: center;
+}
+
+#root > p {
+    position: relative;
+    bottom: 30px;
+}
